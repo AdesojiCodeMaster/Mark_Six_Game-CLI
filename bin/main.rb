@@ -56,7 +56,8 @@ def play(game)
     puts %(Congratulations #{game.players.name} a player with Ticket Number:#{game.players.ticket}!
        You won! Game is over! A new game starts in 10secs)
     sleep(10)
-    game.board.numbers_taken.clear
+   game.board.numbers_taken.clear
+    create_players
   end
   return unless game.board.numbers_taken.size == 6 && game.winner != game.board.numbers_taken
 
@@ -65,6 +66,7 @@ def play(game)
        and our Lucky-numbers are:#{game.winner}. The Game is Over! A new game starts in 10secs)
   sleep(10)
   game.board.numbers_taken.clear
+  create_players
 end
 
 Mark_Six_Game = Game.new(welcome(create_players))
