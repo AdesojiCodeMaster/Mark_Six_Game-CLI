@@ -1,6 +1,6 @@
 # Mark_Six_Game-CLI
 
-> This is a Mark_Six_Game made with Ruby backend language. A test project at GogoX in HongKong.
+> This is a Mark_Six_Game made with Ruby backend language. A test project at GoGoX in HongKong.
 
 ## Project requirements
 - All user interaction and game flow should be placed in lib and bin folders with corresponding ruby files.
@@ -24,6 +24,7 @@
 - The player/players can mark anywhere on the board with the token to move round.
 - If the player/players finished a draw, he will be asked to wait for 10seconds before playing 
 a new game.
+-The players/player can continue to play the game as long as they want after every 10 seconds holding time. 
 
 ## Test Screenshot
 ![screenshot](./assets/image/m62.png)
@@ -41,7 +42,7 @@ a new game.
   |-XX-||-07-||-08-||-XX-||-10-|
   |-11-||-12-||-13-||-14-||-15-|    
 ```
-The players/player can continue to play the game as long as the way after every 10 seconds holding time. 
+
 ### Prerequisites
 - Ruby
 
