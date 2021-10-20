@@ -66,7 +66,7 @@ def play(game)
        and our Lucky-numbers are:#{game.winner}. The Game is Over! A new game starts in 10secs)
   sleep(10)
   game.board.numbers_taken.clear
-  create_players
+  create_players #to start the game again.
 end
 
 Mark_Six_Game = Game.new(welcome(create_players))
