@@ -1,6 +1,6 @@
 # Mark_Six_Game-CLI
 
-> This is a Mark_Six_Game made with Ruby backend language. A test project at GoGoX in HongKong.
+> This is a Mark_Six_Game made with Ruby backend language.
 
 ## Project requirements
 - All user interaction and game flow should be placed in lib and bin folders with corresponding ruby files.
