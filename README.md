@@ -25,7 +25,10 @@
 
 -The player predicts six numbers correctly out of numbers ranging from 1 to 49 on the board that must be the same as the game's lucky numbers.
 
--The player/players can mark anywhere on the board with the token to move around. If the player finishes a draw, he needs to wait for 10seconds before playing a new game. --The players/player can continue to play the game as long as they want after every 10 seconds of holding time.
+-The player/players can mark anywhere on the board with the token to move around. If the player finishes a draw, he needs to wait for 10seconds before playing a new game. -
+
+-The players/player can continue to play the game as long as they want after every 10 seconds of holding time.
+
 ## Test Screenshot
 ![screenshot](./assets/image/m62.png)
 ![screenshot](./assets/image/m67.png)
